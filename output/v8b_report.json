@@ -1,0 +1,18 @@
+{
+  "method": "KNN(transductive) + reversal signal",
+  "n_train_windows": 20895,
+  "n_features": 121,
+  "oof_metrics": {
+    "knn_auc": 0.5717261039274498,
+    "knn_brier": 0.24822700464746644,
+    "knn_spearman": 0.14253808526665335
+  },
+  "submission_stats": {
+    "mean": 0.5128794006604402,
+    "std": 0.13732488205414797,
+    "range": [
+      0.12798130704904975,
+      0.9381599931396956
+    ]
+  }
+}

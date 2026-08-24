@@ -1,0 +1,13 @@
+{
+  "method": "v6 (LGB+reversal) + v8b (KNN+reversal) blend",
+  "weights": "0.5 v6 + 0.5 v8b (rank-normalized)",
+  "robust_alpha": 1.0,
+  "submission_stats": {
+    "mean": 0.4992985247060454,
+    "std": 0.17436689711166864,
+    "range": [
+      0.16666666666666669,
+      0.8333333328850787
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "config": {
+    "n_stocks": 4375,
+    "n_per_stock": 8,
+    "min_history": 80,
+    "n_splits": 5,
+    "num_boost": 1200,
+    "time_decay": true,
+    "state_match": true,
+    "n_features": 30
+  },
+  "metrics": {
+    "oof_auc": 0.5662413014158967,
+    "oof_brier": 0.24458207452940767,
+    "calib_auc": 0.5680580847534988,
+    "calib_brier": 0.24413109101972977
+  },
+  "top5": {
+    "baseline": 0.48460000000000003,
+    "model": 1.0
+  },
+  "elapsed_sec": 320.7667758464813
+}
