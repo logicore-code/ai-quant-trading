@@ -1,0 +1,44 @@
+{
+  "config": {
+    "n_stocks": 4375,
+    "n_per_stock": 5,
+    "min_history": 60,
+    "n_splits": 5,
+    "num_boost": 1500,
+    "seeds": [
+      42,
+      123,
+      2024
+    ],
+    "context_len": 20,
+    "target_len": 20
+  },
+  "metrics": {
+    "bagging_auc": 0.6052954964753715,
+    "bagging_brier": 0.23998331950182542,
+    "calib_auc": 0.6075521368169987,
+    "calib_brier": 0.23932333827013352,
+    "final_auc": 0.6075521368169987,
+    "final_brier": 0.23932333827013352
+  },
+  "best_alpha": 0.0,
+  "top5_hit": {
+    "baseline": 0.4815,
+    "model": 0.9835,
+    "lift": 0.502
+  },
+  "backtest": {
+    "brier": 0.23932333827013352,
+    "p_above_0": 0.485918173168411,
+    "top5_hit_mean": 0.984,
+    "top5_hit_std": 0.056426943918663534,
+    "top5_weighted_ret_mean": 0.11707816570674556,
+    "top5_weighted_ret_std": 0.05682135791963595,
+    "top5_equal_ret_mean": 0.11751335114240646,
+    "top5_equal_ret_std": 0.060214508324861526,
+    "avg_mdd": -0.04744391205799357,
+    "simulated_total_score": 0.21289344935842192,
+    "n_samples": 21020
+  },
+  "elapsed_sec": 631.3467390537262
+}
