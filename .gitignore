@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# 比赛原始数据（太大不入库）
+train/
+test/
+submission_template/
+problem.docx
+
+# 日志
+logs/
+*.log
+
+# 中间产物（太大不入库）
+output/Xtr_df.csv
+output/truncated_samples.csv
+output/*.npy
+output/models/*.pkl
+output/models/*.bin
+output/predictions/*.csv
+output/predictions/*.npy
+
+# CatBoost / LightGBM 临时
+catboost_info/
+*.json.tmp
+
+# 模型 checkpoint（太大）
+*.pt
+*.pth
+*.bin
+*.h5
+
+# 临时文件
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Editor 临时文件
+*.swp
+*~
+*.tmp
+
+# Python cache
+__pycache__/
+*.pyc

@@ -1,0 +1,30 @@
+{
+  "train": {
+    "rows": 8041754,
+    "unique_codes": 4375,
+    "unique_dates": 2794,
+    "date_min": "DAY_0001",
+    "date_max": "DAY_2794",
+    "any_na": 0,
+    "any_neg_price": 374322,
+    "any_high_lt_low": 0,
+    "ret1_mean": 0.000446791929706788,
+    "ret1_std": 0.029526040979131588,
+    "ret5_mean": 0.002507080762420276,
+    "ret20_mean": 0.010139683453200628,
+    "p_up_20d": 0.47431953277854555
+  },
+  "test": {
+    "rows": 30000,
+    "unique_codes": 1500,
+    "unique_dates": 20,
+    "date_min": "DAY_0001",
+    "date_max": "DAY_0020",
+    "any_na": 0,
+    "any_neg_price": 0,
+    "any_high_lt_low": 0,
+    "ret1_mean": 0.0004426916753738596,
+    "ret1_std": 0.023966447810415882
+  },
+  "overlap_codes": 485
+}
