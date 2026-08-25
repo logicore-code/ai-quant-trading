@@ -1,0 +1,13 @@
+{
+  "method": "v4 (LGB) + v14 (reversal) blend, then centralize",
+  "v4_weight": 0.5,
+  "v14_weight": 0.5,
+  "centralization": "0.5 ¡À 0.3",
+  "top5": [
+    "STOCK_0511",
+    "STOCK_0107",
+    "STOCK_0801",
+    "STOCK_1080",
+    "STOCK_0623"
+  ]
+}
