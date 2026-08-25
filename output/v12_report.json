@@ -1,0 +1,14 @@
+{
+  "method": "5-seed LGB ensemble + weak reversal + strong centralization",
+  "lgb_oof_auc": 0.5864555168943826,
+  "lgb_oof_brier": 0.242194912041715,
+  "centralization": "0.5 ¡À 0.05",
+  "submission_stats": {
+    "mean": 0.5000333333333333,
+    "std": 0.02625605102114491,
+    "range": [
+      0.45069666666666663,
+      0.5490566666666666
+    ]
+  }
+}
